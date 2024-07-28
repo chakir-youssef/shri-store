@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "product_id": 0,
+      "product_name": "Bluetooth Wireless Earbuds",
+      "description": "High-quality Bluetooth wireless earbuds with noise-cancellation and up to 20 hours of battery life. Perfect for music lovers and frequent travelers.",
+      "image_url":"/assets/images/black-wireless.png",
+      "image_width":500,
+      "image_height":500,
+      "price":45,
+      "currency":"$"
+    },
+    {
+      "product_id": 1,
+      "product_name": "Nike Air Zoom Pegasus 39",
+      "description": "The Nike Air Zoom Pegasus 39 is a versatile running shoe designed for comfort and performance. It features responsive Zoom Air cushioning and a breathable mesh upper for optimal ventilation.",
+      "image_url":"/assets/images/sports-shoes.png",
+      "image_width":500,
+      "image_height":500,
+      "price":60,
+      "currency":"$"
+    },
+    {
+      "product_id": 2,
+      "product_name": "LuminoFlex LED Reading Lamp",
+      "description": "The LuminoFlex LED Reading Lamp combines modern design with advanced functionality. It features a flexible gooseneck that allows you to direct light precisely where you need it. ",
+      "image_url":"/assets/images/lamp.png",
+      "image_width":500,
+      "image_height":500,
+      "price":30,
+      "currency":"$"
+    }
+  ]
+}

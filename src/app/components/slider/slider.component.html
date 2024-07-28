@@ -1,0 +1,19 @@
+<div class="flex justify-between px-5 items-center space-x-14 bg-bg-light h-[500px] ">
+
+  <div>
+    <button (click)="goNext()" class="text-[80px] text-success2"><</button>
+  </div>
+
+
+    <div class=" relative w-full h-full flex flex-col  justify-center items-center " *ngIf="products[selectedId]" >
+      <app-slider-card  [product]="products[selectedId]"></app-slider-card>
+      <div class="space-x-2"  >
+        <button (click)="changeSlider(i)" [ngClass]="{'bg-green-900':i==selectedId ,'bg-green-400':i!=selectedId}" *ngFor="let pd of products; let i=index"  class="w-[30px] h-[4px]"></button>
+      </div>
+    </div>
+
+
+  <div>
+    <button (click)="goPrevious()" class="text-[80px] text-success2"> ></button>
+  </div>
+</div>
