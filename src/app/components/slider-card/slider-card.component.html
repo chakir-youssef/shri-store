@@ -1,0 +1,20 @@
+<div class=" flex justify-between items-center  h-full ">
+
+  <div class="h-full flex flex-col justify-center items-center space-y-5 w-1/2">
+    <p class="font-bold text-[20px]">{{ product?.product_name }}</p>
+    <p class="w-[400px]">{{ product?.description }}</p>
+    <p class="text-dark text-[20px] font-bold">{{ product?.price }} {{ product?.currency }}</p>
+  </div>
+
+  <div class="w-1/2 h-full flex items-center justify-center">
+    <img
+      alt=""
+      height="{{product?.image_height}}"
+      ngSrc="{{product?.image_url}}" priority
+      width="{{product?.image_width}}"
+
+    />
+  </div>
+
+</div>
+
