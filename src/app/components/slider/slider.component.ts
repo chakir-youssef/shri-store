@@ -4,11 +4,9 @@ import {CommonModule} from "@angular/common";
 import {SliderCardComponent} from "../slider-card/slider-card.component";
 import {Product} from "../../../entity";
 import {DataServiceService} from "../../services/data-service.service";
-import {HttpClientModule} from "@angular/common/http";
 
 @Component({
-  imports: [NgOptimizedImage, CommonModule, SliderCardComponent, HttpClientModule ],
-  providers: [DataServiceService],
+  imports: [NgOptimizedImage, CommonModule, SliderCardComponent ],
   standalone: true,
   selector: 'app-slider',
   styleUrl: './slider.component.css',
@@ -25,10 +23,10 @@ export class SliderComponent implements OnInit {
 
 numberSlides!:number;
   ngOnInit() {
-    this.dataService.getAll().subscribe(data => {
+    this.dataService.getAllProducts().subscribe(data => {
       this.products = data;
       this.numberSlides=this.products.length
-    })
+    });
   }
 
   goNext() {

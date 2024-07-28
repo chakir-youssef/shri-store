@@ -30,5 +30,20 @@
       "price":30,
       "currency":"$"
     }
+  ],
+
+  "categories": [
+    {
+      "category_name": "Shoes",
+      "image_url": "/assets/images/shoes.png"
+    },
+    {
+      "category_name": "Accessories",
+      "image_url": "/assets/images/accessories.png"
+    },
+    {
+      "category_name": "Watches",
+      "image_url": "/assets/images/watches.png"
+    }
   ]
 }
