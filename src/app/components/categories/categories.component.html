@@ -1,0 +1,8 @@
+<div class="flex flex-col items-center space-y-5 pt-10 mt-10 pb-20 px-24">
+  <div>
+    <p class="text-[40px]">Categories of The Month</p>
+  </div>
+  <div class="flex justify-evenly items-center pt-[40px] w-full"  >
+    <app-category-card *ngFor="let categorie of categories " [category]="categorie" ></app-category-card>
+  </div>
+</div>

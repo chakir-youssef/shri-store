@@ -25,3 +25,8 @@ export type Product ={
   shipping_cost?:number;
   shipping_options?:string;
 }
+
+export type Category={
+  category_name:string;
+  image_url:string;
+}

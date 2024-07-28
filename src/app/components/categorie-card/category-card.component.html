@@ -1,0 +1,9 @@
+<div class="flex flex-col justify-center items-center space-y-2">
+  <div class="rounded-full  w-[250px] h-[250px] bg-bg-light flex justify-center items-center">
+    <img class="rounded-full w-full h-full" priority [height]="500" [width]="500" ngSrc="{{category?.image_url}}" alt="">
+  </div>
+  <div class="flex flex-col justify-center items-center space-y-2">
+    <p class="font-[900] text-[20px] ">{{ category?.category_name }}</p>
+    <a routerLink="/" class="bg-success py-2 px-4 text-white text-[15px] font-sans rounded-xl">Go Shop</a>
+  </div>
+</div>
