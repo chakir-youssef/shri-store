@@ -8,7 +8,10 @@
       "image_width":500,
       "image_height":500,
       "price":45,
-      "currency":"$"
+      "currency":"$",
+      "rating":3,
+      "reviews_count":70,
+      "category": "Electronics"
     },
     {
       "product_id": 1,
@@ -18,7 +21,10 @@
       "image_width":500,
       "image_height":500,
       "price":60,
-      "currency":"$"
+      "currency":"$",
+      "rating":3.5,
+      "reviews_count":80,
+      "category": "Shoes"
     },
     {
       "product_id": 2,
@@ -28,7 +34,10 @@
       "image_width":500,
       "image_height":500,
       "price":30,
-      "currency":"$"
+      "currency":"$",
+      "rating":3,
+      "reviews_count":65,
+      "category": "Electronics"
     }
   ],
 
@@ -44,6 +53,47 @@
     {
       "category_name": "Watches",
       "image_url": "/assets/images/watches.png"
+    }
+  ],
+  "featured": [
+    {
+      "product_id": 0,
+      "product_name": "Chanel Chance",
+      "description": "Chanel Chance is a playful and dynamic fragrance that captures a sense of spontaneity and optimism. Its blend of floral and woody notes is both lively and refreshing.",
+      "image_url":"/assets/images/chanel-paris.png",
+      "image_width":500,
+      "image_height":500,
+      "price":80,
+      "currency":"$",
+      "rating":4,
+      "reviews_count":95,
+      "category": "Perfume"
+    },
+    {
+      "product_id": 1,
+      "product_name": "Thayers Witch Hazel Toner",
+      "description": "The primary ingredient, witch hazel, is known for its astringent and anti-inflammatory properties. It helps to tighten the skin, reduce inflammation, and minimize the appearance of pores.",
+      "image_url":"/assets/images/Thayers.png",
+      "image_width":500,
+      "image_height":500,
+      "price":70,
+      "currency":"$",
+      "rating":3.5,
+      "reviews_count":90,
+      "category": "Skincare"
+    },
+    {
+      "product_id": 2,
+      "product_name": "Keurig K45 Elite ",
+      "description": "Designed for brewing a single cup of coffee at a time, which makes it ideal for personal use or small households.",
+      "image_url":"/assets/images/Keurig-K45.png",
+      "image_width":500,
+      "image_height":500,
+      "price":120,
+      "currency":"$",
+      "rating":4,
+      "reviews_count":100,
+      "category": "Home Appliances"
     }
   ]
 }

@@ -1,0 +1,24 @@
+<div class="w-[300px] h-[550px]">
+  <div class="bg-white shadow">
+    <img alt="" priority class="w-[300px] h-[250px]" ngSrc="{{featured.image_url}}" [width]="500" [height]="500" >
+  </div>
+
+  <div class="bg-white p-2 pb-4 flex flex-col space-y-3 h-1/2">
+    <div class="flex items-center justify-between">
+      <ngb-rating class="text-yellow-500 text-[30px]" [max]="5" [rate]="featured.rating"></ngb-rating>
+      <p> </p>
+      <p class="text-muted ">{{featured.price}} {{featured.currency}} </p>
+    </div>
+    <div class="flex flex-col items-start space-y-1">
+      <p class="font-bold">{{featured.product_name}} </p>
+      <p>
+        {{featured.description}}
+      </p>
+    </div>
+    <div>
+      <p class="text-muted ">
+        Reviews ({{featured.reviews_count}})
+      </p>
+    </div>
+  </div>
+</div>

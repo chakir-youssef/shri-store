@@ -3,6 +3,7 @@ import {RouterOutlet} from "@angular/router";
 import {NavBarComponent} from "../components/nav-bar/nav-bar.component";
 import {SliderComponent} from "../components/slider/slider.component";
 import {CategoriesComponent} from "../components/categories/categories.component";
+import {FeaturedComponent} from "../components/featured/featured.component";
 
 @Component({
   selector: 'app-home',
@@ -12,6 +13,7 @@ import {CategoriesComponent} from "../components/categories/categories.component
     NavBarComponent,
     SliderComponent,
     CategoriesComponent,
+    FeaturedComponent,
 
   ],
   templateUrl: './home.component.html',

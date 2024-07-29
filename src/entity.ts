@@ -20,7 +20,7 @@ export type Product ={
   image_height?: number;
   date_added?:Date;
   date_modified?:Date;
-  rating?:number;
+  rating:number;
   reviews_count?:number
   shipping_cost?:number;
   shipping_options?:string;
