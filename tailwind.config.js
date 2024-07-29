@@ -10,7 +10,9 @@ module.exports = {
         "success2":"#69bb7e",
         "tx-light":"#cfd6e1",
         "dark":"#212934",
-        "bg-light":"#e9eef5"
+        "bg-light":"#e9eef5",
+        "muted":"#bcbcbc",
+        "bg-black":"#1d242d"
       }
     },
   },

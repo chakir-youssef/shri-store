@@ -18,4 +18,8 @@ export class DataServiceService {
   getAllCategories(): Observable<Category[]> {
     return this.http.get<Category[]>('http://localhost:8080/categories');
   }
+
+  getAllFeatured():Observable<Product[]>{
+    return this.http.get<Product[]>('http://localhost:8080/featured');
+  }
 }
