@@ -4,6 +4,7 @@ import {NavBarComponent} from "../components/nav-bar/nav-bar.component";
 import {SliderComponent} from "../components/slider/slider.component";
 import {CategoriesComponent} from "../components/categories/categories.component";
 import {FeaturedComponent} from "../components/featured/featured.component";
+import {FooterComponent} from "../components/footer/footer.component";
 
 @Component({
   selector: 'app-home',
@@ -14,6 +15,7 @@ import {FeaturedComponent} from "../components/featured/featured.component";
     SliderComponent,
     CategoriesComponent,
     FeaturedComponent,
+    FooterComponent,
 
   ],
   templateUrl: './home.component.html',
