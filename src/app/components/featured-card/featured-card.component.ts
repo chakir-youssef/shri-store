@@ -15,6 +15,5 @@ import {Product} from "../../../entity";
 
 export class FeaturedCardComponent {
   @Input() featured!:Product;
-
 }
 
