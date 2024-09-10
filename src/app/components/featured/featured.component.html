@@ -1,11 +1,11 @@
 <div class="bg-bg-light p-20 flex flex-col justify-center items-center space-y-10 ">
   <div class="flex flex-col items-center space-y-5">
     <h1 class="text-[30px]">Featured Product</h1>
-    <p class="w-[600px] text-[18px] text-center ">
+    <p class="md:w-[600px] text-[18px] text-center ">
       Discover our top pick of the month! These featured products have been selected based on their popularity, quality, and unique features.
     </p>
   </div>
-<div class="flex justify-evenly items-center w-full ">
+<div class="md:flex md:justify-evenly md:items-center md:w-full ">
   <app-featured-card *ngFor="let featured of featureds" [featured]="featured"></app-featured-card>
 
 </div>

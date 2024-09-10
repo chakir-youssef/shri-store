@@ -20,8 +20,8 @@ export class SliderComponent implements OnInit {
 
   products: Product[] = []
   selectedId: number = 1;
+  numberSlides!:number;
 
-numberSlides!:number;
   ngOnInit() {
     this.dataService.getAllProducts().subscribe(data => {
       this.products = data;

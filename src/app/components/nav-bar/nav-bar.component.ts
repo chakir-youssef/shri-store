@@ -1,15 +1,24 @@
-import { Component } from '@angular/core';
-import {RouterLink} from "@angular/router";
+import {Component} from '@angular/core';
+import {RouterLink, RouterLinkActive} from "@angular/router";
+import {NgClass, NgIf} from "@angular/common";
 
 @Component({
   selector: 'app-nav-bar',
   standalone: true,
   imports: [
-    RouterLink
+    RouterLink,
+    RouterLinkActive,
+    NgIf,
+    NgClass
   ],
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.css'
 })
 export class NavBarComponent {
 
+  showNav: boolean = false;
+
+  showNavBar() {
+    this.showNav = !this.showNav;
+  }
 }

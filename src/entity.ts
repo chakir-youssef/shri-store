@@ -13,7 +13,7 @@ export type Product ={
   width?:number;
   height?:number
   color?:string;
-  Scale?:string;
+  scale?:string;
   material?:string;
   image_url?:string;
   image_width?: number;

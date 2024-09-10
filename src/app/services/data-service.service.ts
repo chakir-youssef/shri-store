@@ -15,6 +15,12 @@ export class DataServiceService {
     return this.http.get<Product[]>('http://localhost:8080/api/products');
   }
 
+  getMenProducts():Observable<Product[]> {
+    return this.http.get<Product[]>('http://localhost:8080/api/products/men');
+  }
+  getWomenProducts():Observable<Product[]> {
+    return this.http.get<Product[]>('http://localhost:8080/api/products/women');
+  }
   getAllCategories(): Observable<Category[]> {
     return this.http.get<Category[]>('http://localhost:8080/api/categories');
   }

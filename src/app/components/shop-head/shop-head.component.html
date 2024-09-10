@@ -1,0 +1,26 @@
+<div class="mt-10 sm:flex sm:flex-col lg:flex lg:flex-row flex flex-col gap-y-5  items-center justify-between lg:w-[800px] w-[450px]">
+
+  <div class="flex items-center justify-evenly sm:w-1/2 w-[450px]">
+    <button (click)="getAllProducts()">All</button>
+    <button (click)="getMenProducts()">Men's</button>
+    <button (click)="getWomenProducts()">Women's</button>
+  </div>
+
+  <div>
+    <select class="border-1 p-1 md:w-[300px] lg:w-[300px] w-[450px]  appearance-none ">
+      <option>Featured</option>
+      <option>
+        Top-Rated Products
+      </option>
+      <option>
+        Best Sellers
+      </option>
+      <option>
+        New Arrivals
+      </option>
+      <option>
+        Exclusive Offers
+      </option>
+    </select>
+  </div>
+</div>
