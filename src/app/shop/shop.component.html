@@ -1,1 +1,22 @@
-<p>shop works!</p>
+<div class="lg:flex lg:flex-row lg:items-start lg:px-20  flex flex-col items-center mb-10 gap-y-2 mt-[150px]  px-3 lg:gap-x-1 ">
+
+  <div class="lg:w-1/5 flex flex-col items-center ">
+    <app-shop-side-bar class="w-full"></app-shop-side-bar>
+  </div>
+
+  <div class="w-full flex flex-col items-center ">
+    <div>
+      <app-shop-head></app-shop-head>
+    </div>
+
+    <div class=" justify-items-center  px-4 w-full grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-x-2 lg:gap-x-0 lg:gap-y-10 mt-5 gap-y-4">
+
+      <app-product-card *ngFor="let product of products" [product]="product"></app-product-card>
+
+    </div>
+  </div>
+
+</div>
+
+<app-our-brands></app-our-brands>
+<app-footer></app-footer>
