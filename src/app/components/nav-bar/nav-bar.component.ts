@@ -16,6 +16,7 @@ import {NgClass, NgIf} from "@angular/common";
 })
 export class NavBarComponent {
 
+  email="shri-store@gmail.com"
   showNav: boolean = false;
 
   showNavBar() {

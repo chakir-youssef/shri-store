@@ -6,7 +6,7 @@
 
       <div class="flex justify-center items-center gap-x-3">
         <i class="bi bi-envelope"></i>
-        <p>info.gmail.com</p>
+        <p>{{email}}</p>
       </div>
       <div class="flex justify-center items-center gap-x-3">
         <i class="bi bi-telephone-fill"></i>
@@ -40,11 +40,11 @@
 
       <div
         class="h-[80%]  flex flex-col items-center justify-content-evenly md:min-h-fit md:flex-row md:items-center md:gap-x-12 lg:gap-x-20  ">
-        <a routerLinkActive="text-success2" [routerLinkActiveOptions]="{exact:true}" routerLink=""
+        <a routerLinkActive="text-success2" (click)="showNavBar()" [routerLinkActiveOptions]="{exact:true}" routerLink=""
            class="hover:text-success  text-lg">Home</a>
-        <a routerLinkActive="text-success2" routerLink="/about" class="hover:text-success text-lg">About</a>
-        <a routerLinkActive="text-success2" routerLink="/shop" class="hover:text-success text-lg">Shop</a>
-        <a routerLinkActive="text-success2" routerLink="/contact" class="hover:text-success text-lg">Contact</a>
+        <a routerLinkActive="text-success2" (click)="showNavBar()" routerLink="/about" class="hover:text-success text-lg">About</a>
+        <a routerLinkActive="text-success2" (click)="showNavBar()" routerLink="/shop" class="hover:text-success text-lg">Shop</a>
+        <a routerLinkActive="text-success2" (click)="showNavBar()" routerLink="/contact" class="hover:text-success text-lg">Contact</a>
       </div>
 
       <div

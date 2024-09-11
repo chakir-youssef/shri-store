@@ -4,6 +4,7 @@ export type Product ={
   product_name?:string;
   description?:string;
   category?:string;
+  gender?: string,
   price?:number;
   discount_price?:number;
   currency?:string;
@@ -18,8 +19,8 @@ export type Product ={
   image_url?:string;
   image_width?: number;
   image_height?: number;
-  date_added?:Date;
-  date_modified?:Date;
+  date_added?:string;
+  date_modified?:string;
   rating:number;
   reviews_count?:number
   shipping_cost?:number;
@@ -27,6 +28,7 @@ export type Product ={
 }
 
 export type Category={
+  id:string;
   category_name:string;
   image_url:string;
 }
