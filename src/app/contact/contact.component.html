@@ -1,1 +1,90 @@
-<p>contact works!</p>
+<div class="md:mt-[125px] mt-[100px] ">
+  <div
+    class="pt-10 bg-bg-light flex flex-col justify-center items-center gap-y-5"
+  >
+    <h1 class="text-success font-[500] text-[30px]">Contact Us</h1>
+    <p class="md:w-[500px] w-[300px] text-center">
+      We’re always here to assist you with any questions, concerns, or feedback
+      you may have. Whether you need help with your order, want to inquire about
+      our products, or just want to get in touch, feel free to reach out! Our
+      customer service team is dedicated to providing prompt and helpful
+      responses
+    </p>
+  </div>
+
+  <div class="mb-10 w-screen mt-[40px] flex justify-center items-center">
+    <form>
+      <div class="flex flex-col w-full">
+        <div class="grid md:grid-cols-2 grid-cols-1">
+          <div class="w-full px-4">
+            <div class="mb-3">
+              <label
+                for=""
+                class="mb-[10px] block text-base font-medium text-dark dark:text-white"
+              >
+                Name
+              </label>
+              <input
+                type="text"
+                placeholder=""
+                class="w-full bg-transparent rounded-md border dark:border-dark-3 py-[10px] px-3 text-dark-6 outline-none transition focus:border-primary"
+              />
+            </div>
+          </div>
+          <div class="w-full px-4">
+            <div class="mb-3">
+              <label
+                for=""
+                class="mb-[10px] block text-base font-medium text-dark dark:text-white"
+              >
+                Email
+              </label>
+              <input
+                type="text"
+                placeholder=""
+                class="w-full bg-transparent rounded-md border py-[10px] px-3 text-dark-5 outline-none transition focus:border-primary"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full flex justify-start items-center px-4">
+          <div class="mb-3">
+            <label
+              for=""
+              class="mb-[10px] block text-base font-medium text-dark dark:text-white"
+            >
+              Subject
+            </label>
+            <input
+              type="text"
+              placeholder=""
+              class="w-full rounded-md border dark:border-dark-3 py-[10px] px-3 text-dark-6 outline-none transition focus:border-primary"
+            />
+          </div>
+        </div>
+
+        <div class="w-full px-4">
+          <div>
+            <label
+              for=""
+              class="mb-[10px] block text-base font-medium text-dark dark:text-white"
+            >
+              Message
+            </label>
+            <textarea
+              rows="5"
+              placeholder=""
+              class="w-full bg-transparent rounded-md border border-stroke dark:border-dark-3 p-3 text-dark-6 outline-none transition focus:border-primary"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="w-full flex justify-end">
+          <button class="bg-success2 py-2 px-4 rounded-3xl">Let's talk</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <app-footer></app-footer>
+</div>
