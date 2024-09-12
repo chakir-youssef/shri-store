@@ -9,7 +9,7 @@
      <p>{{product.scale}}</p>
    </div>
     <div class="w-full flex flex-col justify-center items-center">
-      <ngb-rating class="text-[30px] text-yellow-400" [max]="5" [rate]=product.rating ></ngb-rating>
+      <ngb-rating [disabled]="true" class="text-[30px] text-yellow-400" [max]="5" [rate]=product.rating ></ngb-rating>
       <p> {{product.price}} {{product.currency}} </p>
     </div>
 

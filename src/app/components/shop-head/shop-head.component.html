@@ -1,9 +1,9 @@
-<div class="mt-10 sm:flex sm:flex-col lg:flex lg:flex-row flex flex-col gap-y-5  items-center justify-between lg:w-[800px] w-[450px]">
+<div class="mt-10 sm:flex sm:flex-col-reverse lg:flex lg:flex-row flex flex-col-reverse gap-y-5  items-center justify-between lg:w-[800px] w-[450px]">
 
-  <div class="flex items-center justify-evenly sm:w-1/2 w-[450px]">
-    <button (click)="getAllProducts()">All</button>
-    <button (click)="getMenProducts()">Men's</button>
-    <button (click)="getWomenProducts()">Women's</button>
+  <div class="flex items-center justify-evenly sm:w-1/2 w-[450px]" >
+    <button [ngClass]="{'text-success2': isOpen==0}"   (click)="getAllProducts()">All</button>
+    <button [ngClass]="{'text-success2': isOpen==1}"  (click)="getMenProducts()">Men's</button>
+    <button [ngClass]="{'text-success2': isOpen==2}" (click)="getWomenProducts()">Women's</button>
   </div>
 
   <div>
